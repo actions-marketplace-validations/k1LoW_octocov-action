@@ -54,8 +54,8 @@ jobs:
       pull-requests: write
       # To retrieve test step time in GitHub Action
       contents: read
-      # To retrieve previous report for default branch, which is saved as GitHub Action Artifacts
-      actions: read
+      # To retrieve previous report/To delete current report  for default branch, which is saved as GitHub Action Artifacts
+      actions: write
     steps:
       -
         uses: actions/checkout@v4
